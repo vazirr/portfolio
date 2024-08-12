@@ -24,7 +24,7 @@ const Approach = () => {
         <Card
           title="Development & Progress Update"
           icon={<AceternityIcon order="Phase 2" />}
-          description="Kuch daaldo"
+          description="I believe in keeping everyone in the loop. Regular progress reports are a cornerstone of my approach"
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -39,7 +39,7 @@ const Approach = () => {
         <Card
           title="Development & Launch"
           icon={<AceternityIcon order="Phase 3" />}
-          description="Kuch daaldo"
+          description="Turning ideas into reality is at the core of what I do. Here’s an insight into my process, from initial development to the successful launch of projects"
         >
           <CanvasRevealEffect
             animationSpeed={3}

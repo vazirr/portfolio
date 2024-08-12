@@ -1,8 +1,10 @@
 "use client";
+
 import { cn } from "@/lib/utils";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import React, { useMemo, useRef } from "react";
 import * as THREE from "three";
+import { Mesh } from "three";
 
 export const CanvasRevealEffect = ({
   animationSpeed = 0.4,
@@ -195,7 +197,7 @@ const ShaderMaterial = ({
   const ref = useRef<THREE.Mesh>();
   let lastFrameTime = 0;
 
-  useFrame(({ clock }) => {
+  useFrame(({ clock }: { clock: THREE.Clock }) => {
     if (!ref.current) return;
     const timestamp = clock.getElapsedTime();
     if (timestamp - lastFrameTime < 1 / maxFps) {
