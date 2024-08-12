@@ -145,16 +145,19 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
+    name: "github-Profile-Image",
     img: "/git.svg",
     link: "https://github.com/vazirr/",
   },
   {
     id: 2,
+    name: "github-Twitter-Image",
     img: "/twit.svg",
     link: "https://x.com/ShuklaVaib49891",
   },
   {
     id: 3,
+    name: "github-Linkdln-Image",
     img: "/link.svg",
     link: "https://www.linkedin.com/in/vaibhav-shukla-745352263/",
   },
