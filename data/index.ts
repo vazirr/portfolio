@@ -94,6 +94,14 @@ export const projects = [
     iconLists: ["/re.svg"],
     link: "https://github.com/vazirr/todo",
   },
+  {
+    id: 4,
+    title: "Paste App - A tasks/Notes Saver app",
+    des: "Staying organized and on top of tasks is essential, and that’s why I’ve developed a PAste App designed to streamline productivity and task management with different features like searching, editing, viewing, copy",
+    img: "/Screenshot 2024-10-02 103520.png ",
+    iconLists: ["/re.svg", "/tail.svg"],
+    link: "https://github.com/vazirr/paste-app",
+  },
 ];
 
 export const testimonials = [
